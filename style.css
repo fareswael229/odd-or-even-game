@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 1, 125);
+}
+.game{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 20px;
+    text-align: center;
+    width: 300px;
+    margin-top: 100px;
+}
+h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+.userControl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+}
+button{
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    
+}
+#red{
+    background-color: red;
+    color: white;
+}
+#blue{
+    background-color: blue;
+    color: white;
+}
+.container{
+    font-size: 20px;
+}
